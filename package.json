@@ -2,7 +2,9 @@
   "name": "lerna-sample",
   "description": "Lernaサンプル",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:common": "tsc -p packages/common/tsconfig.json",
+    "test:common": "jest packages/common",
+    "test": "jest"
   },
   "license": "MIT",
   "devDependencies": {
