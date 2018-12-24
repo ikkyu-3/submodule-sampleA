@@ -1,17 +1,25 @@
 {
-  "name": "lerna-sample",
-  "description": "Lernaサンプル",
+  "name": "submodule-sample",
+  "version": "1.0.0",
+  "description": "git submoduleを使用するサンプル",
+  "main": "index.js",
   "scripts": {
-    "build:common": "tsc -p packages/common/tsconfig.json",
-    "test:common": "jest packages/common",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikkyu-3/submodule-sample.git"
+  },
+  "author": "",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikkyu-3/submodule-sample/issues"
+  },
+  "homepage": "https://github.com/ikkyu-3/submodule-sample#readme",
   "devDependencies": {
     "@types/jest": "^23.3.10",
     "husky": "^1.2.1",
     "jest": "^23.6.0",
-    "lerna": "^3.7.1",
     "lint-staged": "^8.1.0",
     "prettier": "^1.15.3",
     "ts-jest": "^23.10.5",
