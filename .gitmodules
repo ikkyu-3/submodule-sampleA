@@ -1,0 +1,3 @@
+[submodule "submodule-sampleB"]
+	path = submodule-sampleB
+	url = https://github.com/ikkyu-3/submodule-sampleB.git
