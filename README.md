@@ -1,4 +1,4 @@
-# submodule-sample(旧lerna-sample)
+# submodule-sampleA(旧lerna-sample)
 
 目的は、`git submodule`を使用してみるです。
 
