@@ -1,21 +1,22 @@
 {
-  "name": "submodule-sample",
+  "name": "submodule-sampleA",
   "version": "1.0.0",
   "description": "git submoduleを使用するサンプル",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ikkyu-3/submodule-sample.git"
+    "url": "git+https://github.com/ikkyu-3/submodule-sampleA.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ikkyu-3/submodule-sample/issues"
+    "url": "https://github.com/ikkyu-3/submodule-sampleA/issues"
   },
-  "homepage": "https://github.com/ikkyu-3/submodule-sample#readme",
+  "homepage": "https://github.com/ikkyu-3/submodule-sampleA#readme",
   "devDependencies": {
     "@types/jest": "^23.3.10",
     "husky": "^1.2.1",
